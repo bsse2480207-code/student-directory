@@ -1,0 +1,50 @@
+body {
+  background: #fff;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.btn-navy {
+  background-color: #0b2a5b;
+  border-color: #0b2a5b;
+  color: #fff;
+}
+.btn-navy:hover,
+.btn-navy:focus {
+  background-color: #091f44;
+  border-color: #091f44;
+  color: #fff;
+}
+
+.student-card {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  border: 0;
+}
+
+.student-card .avatar {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: #ced4da;
+}
+
+.student-card .card-text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.site-footer {
+  background: #212529;
+  color: #fff;
+}
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
